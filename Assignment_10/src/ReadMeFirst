@@ -1,0 +1,9 @@
+I have created SLLNode class which represents the node of SList.
+I have created a SList class that contains two member variables: reference to head node and size of the list.
+It also contains a method iterator() that returns a SListIterator's object and a toString() method that returns the LinkedList.
+SListIterator is class that contains insert(),remove(),hasNext(),next() methods and a member variable currentNode which represents current node while
+iterating through the list.
+The object returned by iterator() is used to insert,remove,display the elements in the Singly Linked List.
+SListDriver class creates object for Slist and uses the object returned by iterator() method to perform operations on the singly linked list.
+Options are displayed for different operations using printOptions() method and operations are performed.
+

@@ -1,0 +1,8 @@
+I have created three Exceptions EmployeeAddressNotFoundException,EmployeeNameNotFoundException,EmployeeIDNotFoundException.These Exceptions are thrown if
+Employee's name is not found or Employee's ID is not found or Employee's address is not found.
+I have created a class Employee which contains employeeDetails() and findEmployee() methods.
+employeeDetails() method creates arraylists of employee's names,employee's IDs,employee's addresses and stores the details.
+findEmployee(String details) method throws all the above exceptions,if their conditions are met.
+
+In the main(), employeeDetails() and findEmployee() method is called in the try block and if any of the exception is thrown ,it is caught in the catch block.
+I have written finally clause and verified if  finally clause is executed even for a NullPointerException.
